@@ -1,0 +1,9 @@
+<!-- Writable signals -->
+
+{{ count() }}
+<button (click)="increment()">Add</button>
+
+<!-- Computed -->
+<div>Area : {{ area() }}</div>
+Length:
+<input type="text" [value]="length()" (input)="onLengthChange($event)" />
