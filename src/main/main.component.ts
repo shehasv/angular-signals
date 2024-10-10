@@ -18,11 +18,7 @@ export class MainComponent implements OnInit {
     });
   }
 
-  ngOnInit() {
-    this.numbers = Array(10000)
-      .fill(0)
-      .map((x, i) => i);
-  }
+  ngOnInit() {}
 
   count = signal(0);
 
