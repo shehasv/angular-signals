@@ -1,3 +1,3 @@
 # angular-signals
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/shehasv/angular-signals)
+Simple examples of Angular signals (Writable Signal, Computed, Effects)
